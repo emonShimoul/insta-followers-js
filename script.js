@@ -12,3 +12,7 @@ setInterval(() => {
         counter.innerText = count;
     }
 }, 1);
+
+setTimeout( () => {
+    followers.innerText = "Followers in Instagram!";
+}, 5000)
